@@ -48,6 +48,7 @@ const Home = (): JSX.Element => {
   }, []);
 
   function handleAddProduct(id: number) {
+    console.log('oi');
     addProduct(id);
   }
 
