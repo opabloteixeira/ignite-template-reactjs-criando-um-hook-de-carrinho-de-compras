@@ -103,7 +103,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
         toast.error('Quantidade solicitada fora de estoque');
         return;
       }
-      
       const updatedCart = [...cart];
       const productExists = updatedCart.find(product => product.id === productId);
 
